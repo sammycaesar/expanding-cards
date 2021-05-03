@@ -87,11 +87,13 @@ body {
   z-index: 1;
 }
 
+/* Mobile and tablet view */
 @media (max-width: 768px) {
   .container {
     width: 100vw;
   }
 
+  /* Removes the 4th and 5th panel in mobile view */
   .panel:nth-of-type(4),
   .panel:nth-of-type(5) {
     display: none;
